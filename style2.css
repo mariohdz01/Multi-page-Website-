@@ -1,0 +1,200 @@
+body {
+    background-color: silver;
+}
+nav {
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+img {
+    position: absolute;
+    margin-top: auto;
+    margin-left: auto;
+    max-width: 15%;
+    max-height: 8.6%;
+}
+
+nav a {
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: purple;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.masthead-intro, .masthead-heading, .content-footer {
+    text-align: center;
+}
+.masthead {
+    padding: 6em 0;
+}
+.masthead-intro {
+    margin-bottom: 0.1em
+}
+.masthead-heading {
+    margin-top: -0.2em;
+}
+
+p {
+    text-align: center;
+}
+
+.content-footer {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.content-footer > p {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+svg {
+    color: white;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+.jumbotron {
+	background-image:url('http://upload.wikimedia.org/wikipedia/commons/6/62/Drip_Coffee_Bangkok.jpg'); 
+	padding: 20%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin-top: -40px;
+	background-attachment: fixed;
+	background-position:  center -238px;
+	
+
+}
+
+.jumbotron h1 {
+	position: absolute;
+	top:18;
+	left:0;
+	padding-left: 20px;
+	color: #F7FAFE;
+}
+
+.mission {
+	background-color: #323232;
+	color: #F7FAFE;
+	margin-top: -30px;
+	
+}
+
+.mission h3 {
+	font-family:'Raleway' 'sans-serif';
+	padding: 5% 10% ;
+	text-align: center;
+	position: center;
+
+}
+
+.order-button {
+  margin: auto;
+  width: 25%;
+  padding: 10px;
+}
+
+
+.features {
+	padding: 5% 0;
+}
+
+.features p {
+	font-family: 'Muli' 'sans-serif';
+	text-align: center;
+	color:#323232;
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+
+
+footer {
+	background-color: purple;
+	position: center;
+	width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+    float: center;
+	
+}
+
+footer p {
+	float: left;
+}
+
+footer a,
+footer p {
+
+	color:#fff;
+	vertical-align: middle;
+
+
+}
+
+
+/********************
+MEDIA QUERIES
+********************/
+@media screen and (max-width: 776px) {
+	.features img {
+		max-width: 90%;
+		margin: auto;
+	}
